@@ -27,5 +27,8 @@ repositories {
 
 dependencies {
     implementation('org.springframework.boot:spring-boot-starter-web')
+    implementation('org.projectlombok:lombok')//이렇게 필요할 때 마다 dependencies를 추가할 수 있다.
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    implementation('com.h2databas:h2')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
